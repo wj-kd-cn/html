@@ -2,7 +2,6 @@
     <head>
         <title>模板文件</title>
         <meta name="author" content="wangjun"/>
-        <meta charset="utf-8"/>
 
         <!-- 设置为不从缓存读取页面 -->
         <meta http-equiv="cache-control" content="no-cache"/>
@@ -10,7 +9,14 @@
         
     </head>
     <body text="blue">
-
+        <!--
+            超链接可以嵌入javascrip脚本
+        -->
+        <a href="javascript:window.close()">close windows</a><br/>
+        <hr/>
+        <a href="javascript:alert(attention!)">attention</a><br/>
+        <!--空连接-->
+        <a href="#">blank</a><br/>
     
 
 
